@@ -8,11 +8,11 @@ export default function Header() {
 		<div
 			className="getdavesbe-header"
 			role="region"
-			aria-label={ __( 'Standalone Editor top bar.', 'getdavesbe' ) }
+			aria-label={ __( 'Custom Editor top bar.', 'getdavesbe' ) }
 			tabIndex="-1"
 		>
 			<h1 className="getdavesbe-header__title">
-				{ __( 'Standalone Block Editor', 'getdavesbe' ) }
+				{ __( 'Custom Block Editor', 'getdavesbe' ) }
 			</h1>
 		</div>
 	);

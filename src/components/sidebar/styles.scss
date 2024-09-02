@@ -2,6 +2,7 @@
 .getdavesbe-sidebar {
 	background: $white;
 	border-left: $border-width solid $gray-200;
+	border-top: $border-width solid $gray-200;
 	bottom: 0;
 	color: $gray-900;
 	height: 100vh;
@@ -10,7 +11,6 @@
 	right: 0;
 	top: 0;
 	width: $sidebar-width;
-	z-index: z-index(".edit-site-sidebar");
 
 	@include break-small() {
 		-webkit-overflow-scrolling: touch;
@@ -33,10 +33,6 @@
 		border-right: 0;
 		margin-bottom: -1px;
 		margin-top: -1px;
-
-		> .components-panel__header {
-			background: $gray-200;
-		}
 	}
 
 	.block-editor-block-inspector__card {
